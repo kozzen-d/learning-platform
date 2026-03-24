@@ -1,3 +1,5 @@
+
+
 const programs = ["React Basics", "Next.js Mastery", "TypeScript Pro"];
 
 export default function MyProgramsPage() {
@@ -7,7 +9,7 @@ export default function MyProgramsPage() {
 
       <ul className="space-y-2">
         {programs.map((program, index) => (
-          <li key={index} className="p-3 border rounded-lg hover:bg-gray-50">
+          <li key={index} className="p-3 border rounded-sm hover:bg-gray-50">
             {program}
           </li>
         ))}

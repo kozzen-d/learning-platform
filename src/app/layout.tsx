@@ -7,8 +7,8 @@ const geistSans = Geist({ subsets: ["latin"], variable: "--font-geist" });
 const geistMono = Geist_Mono({ subsets: ["latin"], variable: "--font-geist-mono" });
 
 export const metadata: Metadata = {
-  title: "My App",
-  description: "Описание моего приложения",
+  title: "Learning Platform",
+  description: "Project of Cohort 77fs",
 };
 
 export default function RootLayout({

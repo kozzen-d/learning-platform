@@ -8,11 +8,11 @@ export default function ProfileLayout({ children }: { children: ReactNode }) {
         <h2 className="text-xl font-bold mb-4">Profile</h2>
 
         <Link href="/profile/my-account" className="hover:text-blue-500">
-          My Account
+          Account
         </Link>
 
         <Link href="/profile/my-programs" className="hover:text-blue-500">
-          My Programs
+          Programs
         </Link>
       </aside>
 
