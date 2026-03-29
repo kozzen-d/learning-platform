@@ -21,7 +21,7 @@ export default async function CategoryIdPage({ params }: Props) {
   const category: Category = await res.json();
 
   return (
-    <div className="max-w-3xl mx-auto p-10 bg-white shadow-sm rounded-xl my-10 border border-gray-100">
+    <div className="max-w-md mx-auto p-6 bg-white shadow-sm rounded-xl my-10 border border-gray-100">
       <div className="mb-6">
         <Link
           href="/categories"

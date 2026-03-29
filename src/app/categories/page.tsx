@@ -16,10 +16,10 @@ export default async function Categories() {
   );
 
   return (
-    <section className="bg-blue-200 min-h-screen py-6 px-4 md:px-20">
-      <h2 className="text-center text-4xl text-white mb-8">Categories</h2>
-      {categoriesList}
-    </section>
+   <section className="bg-gradient-to-r from-zinc-100 to-zinc-700  bg-cover bg-center min-h-screen py-6 px-4 md:px-20">
+  <h2 className="text-center text-4xl text-white mb-8">Categories</h2>
+  {categoriesList}
+</section>
   );
 }
 

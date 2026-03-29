@@ -7,7 +7,7 @@ export default async function Products() {
   const products: Product[] = await res.json();
 
   return (
-    <div className="p-6 max-w-7xl mx-auto">
+    <div className="bg-gradient-to-r from-cyan-100 to-cyan-700 bg-cover bg-center min-h-screen py-6 px-4 md:px-20">
       <h2 className="text-3xl font-bold mb-8 text-gray-800">Products</h2>
 
       <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">

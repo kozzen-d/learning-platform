@@ -1,4 +1,4 @@
-import MagicButton from "@/components/MagicButton";
+import MagicButton from "@/components/magicButton";
 
 
 export default function Profile() {
