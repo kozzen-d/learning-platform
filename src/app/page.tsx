@@ -29,9 +29,7 @@ export default function Home() {
     <div className="flex flex-col min-h-screen bg-neutral-50 font-sans dark:bg-black">
       <HeroSection />
 
-      {/* Секция Benefits */}
       <section className="py-6 px-6 flex flex-col items-center justify-center">
-        {/* Декоративная линия над заголовком */}
         <div className="w-12 h-1.5 bg-blue-600 rounded-full mb-4 shadow-sm" />
 
         <h2 className="text-center text-2xl md:text-6xl font-black tracking-tighter text-slate-500 mb-4">
@@ -42,13 +40,11 @@ export default function Home() {
           Everything you need to succeed in your professional journey.
         </p>
 
-        {/* Аккордеон в стиле карточки */}
         <Accordion
           type="single"
           collapsible
-          // Увеличиваем max-width до 2xl и добавляем padding для объема
           className="w-full max-w-2xl bg-white rounded-[40px] shadow-[0_20px_50px_rgba(0,0,0,0.05)] border border-neutral-100 p-8 md:p-10"
-          defaultValue="belling" // Открываем первый пункт по умолчанию
+          defaultValue="belling"
         >
           {benefitItems.map((item) => (
             <AccordionItem
