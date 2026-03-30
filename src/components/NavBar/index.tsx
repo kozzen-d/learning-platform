@@ -22,6 +22,8 @@ export default function NavBar() {
           { name: "Grids", href: "/grids" },
           { name: "Courses", href: "/courses" },
           { name: "Groups", href: "/groups" },
+          { name: "Add group", href: "/groups/new" },
+          { name: "Reviews", href: "/reviews" },
         ].map((link) => (
           <Link
             key={link.name}

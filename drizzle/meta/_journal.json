@@ -15,6 +15,13 @@
       "when": 1774796456301,
       "tag": "0001_majestic_the_spike",
       "breakpoints": true
+    },
+    {
+      "idx": 2,
+      "version": "7",
+      "when": 1774882526716,
+      "tag": "0002_nifty_molten_man",
+      "breakpoints": true
     }
   ]
 }
