@@ -6,7 +6,7 @@ export default function NavBar() {
   return (
     <nav className="sticky top-0 z-[100] w-full bg-white/80 backdrop-blur-md border-b border-neutral-50 px-6 py-4 flex items-center justify-between min-h-[72px] shadow-sm">
       <Link
-        href="/about"
+        href="/"
         className="text-2xl font-black tracking-tighter text-blue-600 hover:opacity-80 transition-opacity"
       >
         <Logo />
