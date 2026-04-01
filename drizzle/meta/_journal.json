@@ -29,6 +29,20 @@
       "when": 1774943850710,
       "tag": "0003_mighty_lethal_legion",
       "breakpoints": true
+    },
+    {
+      "idx": 4,
+      "version": "7",
+      "when": 1775035800425,
+      "tag": "0004_strange_living_mummy",
+      "breakpoints": true
+    },
+    {
+      "idx": 5,
+      "version": "7",
+      "when": 1775040484897,
+      "tag": "0005_concerned_albert_cleary",
+      "breakpoints": true
     }
   ]
 }

@@ -1,6 +1,7 @@
 import Link from "next/link";
 import JoinNowButton from "../joinNowButton";
 import Logo from "../logo";
+import AuthButton from "../auth-button";
 
 export default function NavBar() {
   return (
@@ -15,6 +16,7 @@ export default function NavBar() {
       <div className="hidden md:flex items-center gap-8">
         {[
           { name: "Home", href: "/" },
+          { name: "Todos", href: "/todos" },
           { name: "About", href: "/about" },
           { name: "Profile", href: "/profile" },
           { name: "Products", href: "/products" },
@@ -36,6 +38,7 @@ export default function NavBar() {
           </Link>
         ))}
       </div>
+      <AuthButton />
 
       <Link href="/courses">
         <JoinNowButton />
