@@ -32,7 +32,7 @@ export const users = pgTable("users", {
 
 export const todos = pgTable("todos", {
   id: integer().primaryKey().generatedAlwaysAsIdentity(),
-  status: boolean().default(false),
+  status: boolean().default(false).notNull(),
   title: varchar({ length: 255 }).notNull(),
   description: varchar({ length: 255 }).notNull(),
   userId: integer("user_id")
