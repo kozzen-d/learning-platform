@@ -43,6 +43,13 @@
       "when": 1775040484897,
       "tag": "0005_concerned_albert_cleary",
       "breakpoints": true
+    },
+    {
+      "idx": 6,
+      "version": "7",
+      "when": 1775380445974,
+      "tag": "0006_shocking_havok",
+      "breakpoints": true
     }
   ]
 }

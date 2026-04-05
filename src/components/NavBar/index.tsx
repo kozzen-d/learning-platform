@@ -17,6 +17,7 @@ export default function NavBar() {
         {[
           { name: "Home", href: "/" },
           { name: "Todos", href: "/todos" },
+          { name: "Notes", href: "/notes" },
           { name: "About", href: "/about" },
           { name: "Profile", href: "/profile" },
           { name: "Products", href: "/products" },
